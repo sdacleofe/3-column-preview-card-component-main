@@ -25,17 +25,21 @@ Users should be able to:
 ### Screenshot
 
 ## Desktop Preview
+
 ---
+
 ![](./design/desktop-preview-f.png)
 
 ## Mobile Preview
+
 ---
+
 ![](./design/mobile-preview-f.png)
 
 ### Links
 
 - Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Stats Preview Card Layout]()
+- Live Site URL: [Stats Preview Card Layout](https://sdacleofe.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
@@ -49,8 +53,37 @@ Users should be able to:
 
 ### What I learned
 
-```scss
+Today, my coding has improved, resulting in cleaner and more legible code. I'm also gaining confidence in my proficiency with FlexBox and Sass.
 
+```scss
+@import 'breakpoint';
+
+@media (max-width: $layout-breakpoint-medium) {
+  body {
+    main {
+      article {
+        flex-wrap: wrap;
+
+        section {
+          margin: 0 30px;
+
+          button {
+            width: 100% !important;
+            color: red;
+          }
+        }
+
+        section.sedan {
+          margin-top: 20px;
+        }
+
+        section.luxury {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
 ```
 
 ### Useful resources
