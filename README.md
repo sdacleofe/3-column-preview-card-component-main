@@ -34,11 +34,11 @@ Users should be able to:
 
 ---
 
-![](./design/mobile-preview-f.png)
+![](./design/mobile-design-f.png)
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/3column-preview-card-component-GF5v3clyAC)
 - Live Site URL: [Stats Preview Card Layout](https://sdacleofe.github.io/3-column-preview-card-component-main/)
 
 ## My process
