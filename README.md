@@ -25,11 +25,11 @@ Users should be able to:
 ### Screenshot
 
 ## Desktop Preview
-
+---
 ![](./design/desktop-preview-f.png)
 
 ## Mobile Preview
-
+---
 ![](./design/mobile-preview-f.png)
 
 ### Links
