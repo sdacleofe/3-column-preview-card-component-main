@@ -1,0 +1,29 @@
+@import 'breakpoint';
+
+@media (max-width: $layout-breakpoint-medium) {
+    body {
+        main {
+            article {
+                flex-wrap: wrap;
+        
+                section {
+                    margin: 0 30px;
+        
+                    button {
+                        width: 100% !important;
+                        color: red;
+                    }
+                }
+        
+                section.sedan {
+                    margin-top: 20px;
+                }
+        
+                section.luxury {
+                    margin-bottom: 20px;
+                }
+        
+            }
+        }
+    }
+}

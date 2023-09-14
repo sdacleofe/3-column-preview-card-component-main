@@ -1,0 +1,24 @@
+@media (width <=650px) {
+  body main article {
+    flex-wrap: wrap;
+  }
+
+  body main article section {
+    margin: 0 30px;
+  }
+
+  body main article section button {
+    width: 100% !important;
+    color: red;
+  }
+
+  body main article section.sedan {
+    margin-top: 20px;
+  }
+
+  body main article section.luxury {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
